@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "https://testlaaroussi.atlassian.net",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": { "^/api": "http://localhost:4200" }
+    }
+  }
+  
